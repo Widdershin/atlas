@@ -1,0 +1,27 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.ts:bundle.js --live -- -p tsify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cycle/dom": "^15.1.0",
+    "@cycle/http": "^12.0.0",
+    "@cycle/run": "^1.0.0",
+    "@cycle/time": "^0.7.2",
+    "xstream": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "browserify-incremental": "^3.1.1",
+    "budo": "^9.4.7",
+    "tsify": "^3.0.1",
+    "typescript": "^2.2.1"
+  }
+}

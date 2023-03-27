@@ -42,7 +42,7 @@ function renderGlider (state) {
     data: {
       ...glider.data,
 
-      style: {transform, position: 'absolute', 'transform-origin': 'center'}
+      style: {transform, position: 'absolute', 'transform-origin': '83px 20px'}
     }
   }
 }
